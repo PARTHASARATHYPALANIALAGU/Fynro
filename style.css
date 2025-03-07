@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Prevents elements from stretching */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ body {
     display: flex;
     gap: 20px;
     flex-grow: 1;
-    justify-content: center; /* Centers the nav */
+    justify-content: center; 
     white-space: nowrap;
 }
 
@@ -52,7 +52,6 @@ body {
     font-weight: bold;
     font-size: 16px;
     padding: 10px 15px;
-    transition: color 0.3s ease-in-out;
 }
 
 .nav a:hover {
@@ -168,7 +167,7 @@ main {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-    color: #555;
+    color:#121214;
     max-width: 520px;
     margin-bottom: 40px;
 }
@@ -323,6 +322,7 @@ main {
     color: white;
     padding: 15px;
     text-align: left;
+    font-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 16px;
     font-weight: 500;
     box-sizing: border-box;
@@ -336,6 +336,7 @@ main {
 
 .solutions-section h2 {
     margin-bottom: 20px; /* Reduce space below heading */
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .solutions-grid {
@@ -353,6 +354,10 @@ main {
 .solution img {
     width: 40px;
     height: 40px;
+}
+.solutions-section h2{
+    font-family: 'Gilroy-Bold', sans-serif;
+    color:#121214;
 }
 
 .solution h3 {
@@ -377,6 +382,11 @@ body {
 .advisors-section {
     text-align: center;
     padding: 50px;
+}
+.advisors-section h2{
+    font-family: 'Gilroy-Bold', sans-serif;
+    color:#121214;
+    
 }
 
 .advisors-container {
@@ -410,6 +420,7 @@ body {
     display: flex;
     align-items: center;
     background: rgba(248, 248, 248, 0.9);
+    font-family: 'Gilroy-SemiBold',sans-serif;
     color: #402708;
     padding: 4px 10px;
     border-radius: 8px;
@@ -532,6 +543,22 @@ h3 {
     align-items: center;
     text-align: center;
 }
+.steps-section h4 {
+    text-align: center;
+    width: 100%;
+}
+.steps-container h4 {
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
 
 .steps-container {
     display: flex;
@@ -548,20 +575,17 @@ h3 {
     max-width: 50%;
 }
 
-.steps-container h4 {
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 30px;
 
-}
 
 .step {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.step p{
+    font-family: 'Gilroy-Medium',sans-serif;
+    color:#555555;
 }
 
 .step-badge {
